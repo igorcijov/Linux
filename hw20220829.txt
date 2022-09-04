@@ -1,0 +1,16 @@
+git reset = для полной очистки индекса
+
+git diff HEAD  = для просмотра разницы между раб.каталогом и посл. комvитом
+
+git checkout -b novaeaVetka = для создания новой ветки и одновременного переключения в на нее
+
+git diff master novaeaVetka = для сравнения веток между собой
+
+git push -u origin develop = для загрузки ветки develop на удаленный репозиторий (GITHUB)
+
+git branch -d novaeaVetka = для удаления локальной ветки
+git branch -D novaeaVetka = для удаления локальной ветки without Merged
+
+git merge novaeaVetka = для слияния веток
+
+git show 3245:index.html = для открытия (просмотра) файла по состоянию на какой-то коммит
